@@ -1,0 +1,117 @@
+.nav{
+     background-color: rgb(238, 236, 236) !important;
+}
+
+#header a{
+    color: black;
+}
+
+#header a:hover{
+    color: rgb(189, 8, 8);
+}
+
+.nombreEmpresa{
+    font-family: 'Playfair Display', serif;
+    color: rgb(189, 8, 8);
+}
+
+.titulo{
+    text-align: center;
+    height: 200px;
+    padding-top: 40px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+#header img{
+    width: 50%;
+}
+
+#main img{
+    max-height: 80vh;
+   object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    align-items: center;
+    height: 80%;
+}
+
+
+
+.carta{
+    box-shadow:10px 10px 20px #4b4a4a;
+    -moz-box-shadow:10px 10px 20px #4b4a4a;
+    -webkit-box-shadow:10px 10px 20px #4b4a4a;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.texto{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#trabajos img{
+    height: 550px;
+}
+
+.texto{
+    font-family: 'Playfair Display', serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: -10;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #footer{
+      text-align: justify;
+      background: linear-gradient(90deg,rgb(100, 7, 7),rgb(104, 9, 9) 25%, rgb(165, 8, 8));
+      color: white;
+  }
+
+  #footer i{
+    padding-right: 15px;
+  }
