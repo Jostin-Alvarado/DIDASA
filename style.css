@@ -107,11 +107,13 @@
   }
 
   #footer{
-      text-align: justify;
+      text-align: center;
       background: linear-gradient(90deg,rgb(100, 7, 7),rgb(104, 9, 9) 25%, rgb(165, 8, 8));
       color: white;
   }
 
-  #footer i{
-    padding-right: 15px;
-  }
+#footer i{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
